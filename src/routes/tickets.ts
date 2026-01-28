@@ -18,7 +18,7 @@ router.post("/upsert", async (req: Request, res: Response) => {
 });
 
 /**
- * Get tickets (optional project filter)
+ * Get tickets (optional projectss filter)
  */
 router.get("/", async (req: Request, res: Response) => {
   try {
