@@ -5,7 +5,7 @@ import { db } from "../db";
 const router = express.Router();
 
 /**
- * Create or update ticket (dedup)
+ * Create or update ticketSS (dedup)
  */
 router.post("/upsert", async (req: Request, res: Response) => {
   try {
